@@ -1,0 +1,23 @@
+declare -A movies
+movies[english]="spiderman"
+movies[telegu]="rrr"
+movies[tamil]="vikram"
+movies[kannada]="kgf1"
+
+echo "the dictionary is ${movies[@]}"
+movies[hindi]="okjaanu"
+movies[malayalam]="kurup"
+
+echo "after add, dctionary is ${movies[@]}"
+
+movies[malayalam]="premam"
+movies[telegu]="pushpa"
+
+echo "afte update, the dictionary is ${movies[@]}"
+
+unset 'movies[english]'
+unset 'movies[tamil]'
+echo "after delete, the dictionary is ${movies[@]}"
+echo "length of the dictionary is ${#movies[@]}"
+echo "keys of the dictionary is $[!movies[@]}"
+

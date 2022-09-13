@@ -1,0 +1,5 @@
+1.create two files 'banglore.png' and 'pune.jepg'
+2.find the names of the files and create folders of the same name
+3.create a folder in desktop as 'bckup'
+4.move the files in the folders as the same name as the files
+5.move the certain folders in the 'bckup' folder
